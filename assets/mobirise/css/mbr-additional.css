@@ -4,10 +4,12 @@
   font-size: 16px;
 }
 #menu-0.mbr-navbar--stuck .mbr-navbar__section {
-  background: #ffffff;
+  background: #dad3d3;
+  border-bottom-right-radius:5px;
+  border-bottom-left-radius: 5px;
 }
 #menu-0 .mbr-navbar__section {
-  background: #ffffff;
+  background: none;
 }
 #menu-0 .mbr-navbar__hamburger {
   color: #000000;

@@ -44,8 +44,8 @@ html {
 }
 .mbr-navbar__brand-link:after,
 .mbr-navbar__brand-img {
-  max-height: 74px;
-  height: 100%;
+  max-height: 40px;
+  height: 40%;
 }
 .mbr-navbar:before,
 .mbr-navbar__container {
@@ -519,7 +519,7 @@ html {
   }
 }
 .mbr-section {
-  padding: 0 20px;
+  padding-bottom:2px;
 }
 .mbr-section--no-padding {
   padding: 0;
