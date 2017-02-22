@@ -9,7 +9,7 @@
     },
     "versionFirst": "3.11.1",
     "uniqCompNum": 24,
-    "versionPublish": "3.9.0",
+    "versionPublish": "3.11.1",
     "path": "file:///D:/Back%20Up%20documentos%20de%20netbook%20sergio%2023-%2012-%2016/Facultad%203%C2%AA/desarrollo%20de%20paginas%20web",
     "screenshot": "screenshot.png",
     "publishFtpPath": "public_html",
@@ -120,12 +120,6 @@
           ],
           "_afterNavbarItem": ".mbr-section > .mbr-box__magnet",
           "_name": "header4",
-          "_styles": {
-            "H1": {
-              "font-family": "'Roboto', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Roboto:400,300,700"
-            }
-          },
           "_anchor": "header4-a",
           "_params": {
             "parallax": true,
@@ -148,7 +142,13 @@
           },
           "title": "¿Que hacemos?",
           "text": "Tienes alguna idea que quieres hacer realidad.&nbsp;<br>Nosotros te la realizamos, ya sea alguna decoración, impresiones publicitarias,&nbsp;un sitio web o producciones&nbsp;<br>",
-          "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger animated fadeInUp delay\" href=\"index.html#header1-n\" data-toolbar=\"-mbrBtnMove\">VER MAS</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default animated fadeInUp delay\" href=\"https://mobirise.com\">FOR MAC</a>"
+          "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger animated fadeInUp delay\" href=\"index.html#header1-n\" data-toolbar=\"-mbrBtnMove\">VER MAS</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default animated fadeInUp delay\" href=\"https://mobirise.com\">FOR MAC</a>",
+          "_styles": {
+            "H1": {
+              "font-family": "'Roboto', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Roboto:400,300,700"
+            }
+          }
         },
         {
           "_tags": [

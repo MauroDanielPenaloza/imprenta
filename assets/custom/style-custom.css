@@ -1,0 +1,33 @@
+.atras{
+	padding-top: 56px;
+}
+
+.flecha-abajo{
+	position: relative;
+    top: -54px;
+    left: 158px;
+}
+.flecha-arriba{
+	    position: relative;
+    left: 11em;
+    bottom: 21em;
+}
+.contenedor-carta{
+	overflow: visible !important;
+}
+
+@media (max-width: 768px) {
+	.flecha-abajo{
+		position: relative;
+	    top: 8px !important;
+	    left: -127px !important;
+	    transform: rotateZ(90deg);
+	}
+	.flecha-arriba{
+	    position: relative;
+	    left: 10em;
+	    bottom: 1em;
+	    transform: rotateZ(90deg);
+	}
+}
+
