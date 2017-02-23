@@ -3742,8 +3742,9 @@ fieldset[disabled] .btn-danger.active {
 .btn-danger.active,
 .open > .dropdown-toggle.btn-danger {
   color: #ffffff;
-  background-color: #252525;
-  border-color: #252525;
+  background-color: #f15833;
+  border-color: #f05732;
+
 }
 .btn-danger:active,
 .btn-danger.active,
@@ -7411,4 +7412,9 @@ img {
   height: 100%;
   background-color: transparent;
 
+}
+#linkface img
+{
+   width: 60px;
+   height: 60px;
 }
