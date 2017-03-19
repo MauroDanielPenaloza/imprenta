@@ -4,13 +4,13 @@
 
 .flecha-abajo{
 	position: relative;
-    top: -54px;
-    left: 158px;
+    top: -150px;
+    left: 155px;
 }
 .flecha-arriba{
 	    position: relative;
     left: 11em;
-    bottom: 21em;
+    bottom: 23em;
 }
 .contenedor-carta{
 	overflow: visible !important;
