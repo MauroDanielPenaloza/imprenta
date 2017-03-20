@@ -1,3 +1,70 @@
+.carta {
+  height: 100%;
+  width: 100%;
+  position: relative; /*con esto y position absolute hago que el lado de adelante y atras esten pegados*/
+    transform-style: preserve-3d;/*para que los elementos se conviertan en 3d*/
+    transition: 1s;/*el dado vuelta es decir la transicion va a ser de 2 seg*/
+  background-color: transparent;
+
+  
+}    
+
+.img-flecha{
+	height: 10em;
+}
+.contenedor {
+  height: 250px;
+  width: 250px;
+  margin: auto;
+    -webkit-perspective: 700; /*con esto hace que la perspectiva sea en 3d*/
+    background-color: transparent;
+
+    }
+.img-carta {
+  height: 100%;
+  background-color: transparent;
+
+}
+
+.carta:hover {
+  transform: rotateY(180deg); /*cuando pase el cursor se va a dar vuelta y voy a ver la parte de la carta de atras*/
+  background-color: transparent;
+}
+
+.lado {
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden; /*propiedad para ocultar la parte que esta atras*/
+  position: absolute;
+  background-color: transparent;
+ 
+}
+
+.frente {
+
+  background-color: transparent;
+
+}
+
+
+.atras {
+  
+  transform: rotateY(180deg);
+  border-radius: 12px;
+
+  background-color: transparent;
+}
+.atras a:link{
+    border-radius: 8px;
+    height: 30px;
+    width: 30px;
+    border: 2px #ffffff solid;
+    background-color: #ffffff;
+     text-decoration: none;
+}
+
+
+
 .atras{
 	padding-top: 56px;
 }
