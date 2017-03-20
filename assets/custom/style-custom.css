@@ -1,3 +1,16 @@
+.btn-danger:hover{
+	    /* color: #ffffff; */
+    background-color: #ba00ba;
+    border-color: #ba00ba;
+}
+
+.btn-danger {
+    border-color: #ba00ba;
+    color: #ffffff;
+    background-color: #ba00ba;
+    border-color: #790079;
+}	
+
 .carta {
   height: 100%;
   width: 100%;
@@ -10,7 +23,7 @@
 }    
 
 .img-flecha{
-	height: 10em;
+	 height: 28em;
 }
 .contenedor {
   height: 250px;
@@ -71,13 +84,13 @@
 
 .flecha-abajo{
 	position: relative;
-    top: -150px;
-    left: 155px;
+      top: -245px;
+    left: 82px;
 }
 .flecha-arriba{
 	    position: relative;
-    left: 11em;
-    bottom: 23em;
+   left: 6em;
+    bottom: 26em;
 }
 .contenedor-carta{
 	overflow: visible !important;
@@ -86,14 +99,14 @@
 @media (max-width: 768px) {
 	.flecha-abajo{
 		position: relative;
-	    top: 8px !important;
-	    left: -127px !important;
+	top: -262px !important;
+    left: -86px !important;
 	    transform: rotateZ(90deg);
 	}
 	.flecha-arriba{
 	    position: relative;
-	    left: 10em;
-	    bottom: 1em;
+	       left: 4em;
+    bottom: 19em;
 	    transform: rotateZ(90deg);
 	}
 }
