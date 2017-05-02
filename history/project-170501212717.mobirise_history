@@ -8,7 +8,7 @@
       "styling": {}
     },
     "versionFirst": "3.12.1",
-    "uniqCompNum": 14,
+    "uniqCompNum": 11,
     "versionPublish": "3.12.1"
   },
   "pages": {
@@ -68,7 +68,7 @@
             }
           },
           "brand": "<a class=\"mbr-brand__name text-white\" data-app-btn=\"true\" href=\"https://mobirise.com\" data-app-selector=\".mbr-brand__name a\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\"></a>",
-          "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"#top\">HOME</a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"https://mobirise.com\">EMPRESAS</a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"https://mobirise.com\">GALERIA</a></li>",
+          "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"https://mobirise.com\">HOME</a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"https://mobirise.com\">ABOUT</a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"https://mobirise.com\">CONTACT</a></li>",
           "buttons": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"parent\" class=\"mbr-buttons__btn btn btn-default\" data-app-selector=\".mbr-navbar__items a\" href=\"https://mobirise.com\">DOWNLOAD</a></li>"
         },
         {
@@ -77,61 +77,48 @@
             "Theme"
           ],
           "_name": "header1",
-          "_anchor": "header1-d",
+          "_styles": {
+            "H1": {
+              "text-align": "center"
+            }
+          },
+          "_anchor": "header1-1",
           "_params": {
             "parallax": true,
             "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/fondo%20inv%20pres-2000x2000.png",
-            "bgColor": "#000000",
+            "bgImage": "@PROJECT_PATH@/assets/images/fondo-inv-pres-2000x2000.png",
+            "bgColor": "#4c6972",
             "bgColorRadio": false,
             "bgVideo": {
               "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
             "bgVideoRadio": false,
-            "contentAlign": "right",
+            "contentAlign": "center",
             "overlay": false,
             "overlayOpacity": 0.5,
             "overlayColor": "#222",
             "showTitle": true,
             "showText": true,
-            "showButtons": true,
+            "showButtons": false,
             "showArrow": true
           },
-          "title": "A3+",
-          "text": "<p>&nbsp;&nbsp;&nbsp;&nbsp;Empresa de diseño con un amplio recorrido en la provincia con amplia experiencia en carteleria, papeleria, imagen empresarial.<br></p>",
-          "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg animated fadeInUp delay btn-default\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">CONTACTANOS</a> ",
-          "_styles": {
-            "H1": {
-              "text-align": "center"
-            }
-          }
+          "title": "",
+          "text": "Nos caracterizamos por ser una empresa que trabaja proactivamente en función de las necesidades que surgen constantemente y nos aseguramos de preveer la mayor cantidad de dificultades que se puedan presentar con el fin de lograr el objetivo propuesto de la mejor manera&nbsp;.",
+          "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger animated fadeInUp delay\" href=\"https://mobirise.com\">DOWNLOAD NOW</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default animated fadeInUp delay\" href=\"https://mobirise.com\">LEARN MORE</a>"
         },
         {
-          "_inherit": "msg-box5",
           "_tags": [
             "Theme"
           ],
-          "_styles": {
-            ".mbr-header__text": {
-              "color": "#ffffff"
-            },
-            ".mbr-header__subtext": {
-              "color": "#ffffff"
-            },
-            ".mbr-article": {
-              "color": "#ffffff"
-            }
-          },
-          "_name": "msg-box4",
-          "_anchor": "msg-box4-b",
+          "_name": "features1",
+          "_anchor": "features1-3",
           "_params": {
-            "imageSize": "26",
             "paddingTop": "0",
-            "paddingBottom": "0",
+            "paddingBottom": "2",
             "bgImageRadio": false,
             "parallax": true,
             "bgImage": "images/bg3.jpg",
-            "bgColor": "#1e1e1e",
+            "bgColor": "#ffffff",
             "bgColorRadio": true,
             "bgVideo": {
               "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
@@ -140,40 +127,158 @@
             "overlay": false,
             "overlayOpacity": 0.5,
             "overlayColor": "#222",
-            "inverse": false,
-            "showTitle": true,
-            "showMeta": false,
-            "showText": true,
+            "showHeader": false,
+            "showSubheader": false,
+            "columns": 4,
+            "showImages": true,
+            "showTitles": true,
+            "showCaptions": true,
             "showButtons": true
           },
-          "media": {
+          "headerAlign": "left",
+          "header": "DROP-DEAD EASY WEBSITE MAKER",
+          "subheader": "By John Smith posted July 30, 2015",
+          "media1": {
             "image": {
               "active": true,
+              "src": "@PROJECT_PATH@/assets/images/14713783-969623026517920-4707339245277826762-n-600x600.jpg",
               "class": "mbr-figure__img",
-              "width": 1400,
-              "src": "@PROJECT_PATH@/assets/images/sergio1-1400x1400.png",
+              "width": 600,
               "link": "",
               "alt": "",
               "title": "",
               "linkInNewWindow": false
             },
             "video": {
-              "src": "http://www.youtube.com/embed/sOSTC6FM6Bw",
-              "aspectratio": "16:9",
-              "autoplay": false,
-              "loop": false
+              "class": "mbr-figure__img",
+              "src": "http://www.youtube.com/embed/sOSTC6FM6Bw"
             },
             "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-msg-box4",
+              "class": "mbr-iconfont mbr-iconfont-features1",
               "link": "",
               "size": 0
             }
           },
-          "headerAlign": "left",
-          "title": "HUNUK DEVELOPERS",
-          "meta": "By John Smith posted July 30, 2015",
-          "text": "<p>Especialistas en desarrollo de sistemas de gestion comercial, paginas web y mucho más.&nbsp;</p><p>¿Necesitas un sistema para tu negocio?</p>",
-          "button": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">CONTACTANOS</a>"
+          "title1": "ESTUDIO DE DISEÑO <br>A3",
+          "caption1": "Empresa de diseño con un amplio recorrido en la provincia con amplia experiencia en carteleria, papeleria, imagen empresarial.",
+          "button1": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"mbr-buttons__btn btn btn-wrap btn-xs-lg btn-default\" data-toolbar=\"-mbrBtnMove\">CONTACTANOS</a>",
+          "media2": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/sergio1-600x600.png",
+              "class": "mbr-figure__img",
+              "width": 600,
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "video": {
+              "class": "mbr-figure__img",
+              "src": "http://www.youtube.com/embed/sOSTC6FM6Bw"
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-features1",
+              "link": "",
+              "size": 0
+            }
+          },
+          "title2": "DESARROLLO WEB<br>Hunuc Huar",
+          "caption2": "Especialistas en desarrollo de sistemas de stock y administracion comercial.<br>¿Necesitas un sistema para tu negocio?&nbsp;",
+          "button2": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"mbr-buttons__btn btn btn-wrap btn-xs-lg btn-default\" data-toolbar=\"-mbrBtnMove\">CONTACTANOS</a>",
+          "media3": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/a3-600x600.png",
+              "class": "mbr-figure__img",
+              "width": 600,
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "video": {
+              "class": "mbr-figure__img",
+              "src": "http://www.youtube.com/embed/sOSTC6FM6Bw"
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-features1",
+              "link": "",
+              "size": 0
+            }
+          },
+          "title3": "WEB FONTS",
+          "caption3": "",
+          "button3": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"mbr-buttons__btn btn btn-wrap btn-xs-lg btn-default\" data-toolbar=\"-mbrBtnMove\">CONTACTANOS</a>",
+          "media4": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/4-600x600.png",
+              "class": "mbr-figure__img",
+              "width": 600,
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "video": {
+              "class": "mbr-figure__img",
+              "src": "http://www.youtube.com/embed/sOSTC6FM6Bw"
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-features1",
+              "link": "",
+              "size": 0
+            }
+          },
+          "title4": "UNLIMITED WEBSITES",
+          "caption4": "Mobirise gives you the freedom to develop as many websites as you like given the fact that it is a desktop app.",
+          "button4": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"mbr-buttons__btn btn btn-wrap btn-xs-lg btn-default\" data-toolbar=\"-mbrBtnMove\">CONTACTANOS</a> ",
+          "media5": {
+            "image": {
+              "active": true,
+              "src": "images/blocks.png",
+              "class": "mbr-figure__img",
+              "width": 600
+            },
+            "video": {
+              "class": "mbr-figure__img",
+              "src": "http://www.youtube.com/embed/sOSTC6FM6Bw"
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-features1",
+              "link": "",
+              "size": 0
+            }
+          },
+          "title5": "TRENDY WEBSITE BLOCKS",
+          "caption5": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
+          "button5": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"mbr-buttons__btn btn btn-wrap btn-xs-lg btn-default\">LEARN MORE</a>",
+          "media6": {
+            "image": {
+              "active": true,
+              "src": "images/host.png",
+              "class": "mbr-figure__img",
+              "width": 600
+            },
+            "video": {
+              "class": "mbr-figure__img",
+              "src": "http://www.youtube.com/embed/sOSTC6FM6Bw"
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-features1",
+              "link": "",
+              "size": 0
+            }
+          },
+          "title6": "HOST ANYWHERE",
+          "caption6": "Publish your website to a local drive, FTP or host on Amazon S3, Google Drive, Github. Don't limit yourself to just one platform or service provider.",
+          "button6": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"mbr-buttons__btn btn btn-wrap btn-xs-lg btn-default\">LEARN MORE</a>",
+          "_styles": {
+            ".mbr-section__col .mbr-header__text": {
+              "text-align": "center"
+            }
+          }
         },
         {
           "_inherit": "gallery1",

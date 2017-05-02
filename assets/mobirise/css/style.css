@@ -841,7 +841,7 @@ html {
   display: inline-block;
   /*line-height: 1px;*/
   margin: 0;
-  max-width: 100%;
+  max-width: 85%;
   overflow: hidden;
   position: relative;
 }
@@ -1735,10 +1735,10 @@ html {
     width: 100%;
   }
 }.engine {
-	position: absolute;
-	text-indent: -2400px;
-	text-align: center;
-	padding: 0;
-	top: 0;
-	left: -2400px;
+  position: absolute;
+  text-indent: -2400px;
+  text-align: center;
+  padding: 0;
+  top: 0;
+  left: -2400px;
 }

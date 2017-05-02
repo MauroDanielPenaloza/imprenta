@@ -1,29 +1,47 @@
+.mbr-figure-custom{
+  display: inline-block;
+  margin: 0;
+  max-width: 50%;
+  overflow: hidden;
+  position: relative;
+}
+.desc-principal{
+      padding-top: 1em;
+    text-align: center;
+    font-size: medium;
+}
+
+.mbr-header__text-custom{
+    color: rgb(255, 255, 255);
+    font-size: x-large !important;
+    text-shadow: 4px 1px 11px #000000, 1px 2px 11px #000000, 0px 0px 11px #000000;  
+}
+
 .btn-danger:hover{
-	    /* color: #ffffff; */
-    background-color: #ba00ba;
-    border-color: #ba00ba;
+      /* color: #ffffff; */
+      background-color: #F50087;
+      border-color: #F50087;
 }
 
 .btn-danger {
     border-color: #ba00ba;
     color: #ffffff;
-    background-color: #ba00ba;
-    border-color: #790079;
-}	
+    background-color: transparent;
+    border-color: #fff;
+} 
 
 .carta {
   height: 100%;
   width: 100%;
   position: relative; /*con esto y position absolute hago que el lado de adelante y atras esten pegados*/
-    transform-style: preserve-3d;/*para que los elementos se conviertan en 3d*/
-    transition: 1s;/*el dado vuelta es decir la transicion va a ser de 2 seg*/
+  transform-style: preserve-3d;/*para que los elementos se conviertan en 3d*/
+  transition: 1s;/*el dado vuelta es decir la transicion va a ser de 2 seg*/
   background-color: transparent;
-
-  
+  z-index: 9999;
 }    
 
 .img-flecha{
-	 height: 28em;
+   height: 28em;
 }
 .contenedor {
   height: 250px;
@@ -34,9 +52,9 @@
 
     }
 .img-carta {
+  z-index: -1;
   height: 100%;
   background-color: transparent;
-
 }
 
 .carta:hover {
@@ -50,22 +68,26 @@
   backface-visibility: hidden; /*propiedad para ocultar la parte que esta atras*/
   position: absolute;
   background-color: transparent;
- 
+  z-index: -1;
 }
 
 .frente {
 
-  background-color: transparent;
+background-color: transparent;
 
+z-index: -1;
 }
 
 
 .atras {
   
-  transform: rotateY(180deg);
-  border-radius: 12px;
-
-  background-color: transparent;
+transform: rotateY(180deg);
+  
+border-radius: 12px;
+  
+background-color: transparent;
+  
+color: white;
 }
 .atras a:link{
     border-radius: 8px;
@@ -79,35 +101,35 @@
 
 
 .atras{
-	padding-top: 56px;
+  padding-top: 56px;
 }
 
 .flecha-abajo{
-	position: relative;
+  position: relative;
       top: -245px;
     left: 82px;
 }
 .flecha-arriba{
-	    position: relative;
+      position: relative;
    left: 6em;
     bottom: 26em;
 }
 .contenedor-carta{
-	overflow: visible !important;
+  overflow: visible !important;
 }
 
 @media (max-width: 768px) {
-	.flecha-abajo{
-		position: relative;
-	top: -262px !important;
+  .flecha-abajo{
+    position: relative;
+  top: -262px !important;
     left: -86px !important;
-	    transform: rotateZ(90deg);
-	}
-	.flecha-arriba{
-	    position: relative;
-	       left: 4em;
+      transform: rotateZ(90deg);
+  }
+  .flecha-arriba{
+      position: relative;
+         left: 4em;
     bottom: 19em;
-	    transform: rotateZ(90deg);
-	}
+      transform: rotateZ(90deg);
+  }
 }
 
