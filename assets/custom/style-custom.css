@@ -17,6 +17,9 @@
   .left-icon-hunuk{
     display: block;
  }
+ .mbr-hero__text-custom{
+    font-size: xx-large;
+ }
  .texto-empresa-hunuk{
   padding-top: 0 !important;
   margin-top: -5em;
