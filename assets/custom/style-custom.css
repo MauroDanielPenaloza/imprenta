@@ -1,3 +1,57 @@
+
+@media (min-width: 800px){
+ .grupo-tarjeta{
+  display: none;
+ } 
+  .grupo-carta{
+  display: block;
+ }  
+ .left-icon-hunuk{
+    display: none;
+ }
+ .right-icon-hunuk{
+   display: block;
+ }
+}
+@media (max-width: 800px){
+  .left-icon-hunuk{
+    display: block;
+ }
+ .texto-empresa-hunuk{
+  padding-top: 0 !important;
+  margin-top: -5em;
+  padding-left: 3em;
+ }
+ .mbr-section__row{
+  padding-right: 0 !important;
+      margin-right:0 !important;
+ }
+ .right-icon-hunuk{
+   display: none;
+ }
+  section{
+    max-width: 100% !important;
+  }
+ .grupo-tarjeta{
+  display: block;
+ } 
+  .grupo-carta{
+  display: none;
+ }  
+}
+.img-tarjeta{
+  max-width: 100%;
+}
+.texto-tarjeta{
+  color: #FFF;
+}
+.texto-tarjeta>p{
+  text-align: center;
+}
+.texto-tarjeta>h3{
+  text-align: center; 
+  margin-top: -2em;
+}
 .mbr-figure-custom{
   display: inline-block;
   margin: 0;
