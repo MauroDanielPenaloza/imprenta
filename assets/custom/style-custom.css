@@ -12,8 +12,20 @@
  .right-icon-hunuk{
    display: block;
  }
+ .mapa-oculto{
+  display: none;
+ }
+ .mapa{
+  display: block;
+ }
 }
 @media (max-width: 800px){
+  .mapa-oculto{
+    display: block;
+   }
+   .mapa{
+    display: none;
+   }
   .left-icon-hunuk{
     display: block;
  }
@@ -92,7 +104,7 @@
   width: 100%;
   position: relative; /*con esto y position absolute hago que el lado de adelante y atras esten pegados*/
   transform-style: preserve-3d;/*para que los elementos se conviertan en 3d*/
-  transition: 1s;/*el dado vuelta es decir la transicion va a ser de 2 seg*/
+  transition: all  1s;/*el dado vuelta es decir la transicion va a ser de 2 seg*/
   background-color: transparent;
   z-index: 9999;
 }    
@@ -119,6 +131,10 @@
   background-color: transparent;
 }
 
+.carta:hover > .frente {
+  opacity:0;
+}
+
 .lado {
   width: 100%;
   height: 100%;
@@ -131,7 +147,7 @@
 .frente {
 
 background-color: transparent;
-
+   transition: all  1s;
 z-index: -1;
 }
 
