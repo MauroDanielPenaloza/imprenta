@@ -564,7 +564,84 @@
                             </div>
                           </div>
              <div class="col-sm-6">
-                      <div class="row">
+             <div class="lds-css ng-scope" style="position: absolute; left: 30%; top: 26%; z-index: 1;">
+  <div style="width:100%;height:100%" class="lds-dual-ring" id="spinner">
+    <div></div>
+    <div></div>
+  </div>
+<style type="text/css">
+  @keyframes lds-dual-ring {
+    0% {
+      -webkit-transform: rotate(0);
+      transform: rotate(0);
+    }
+    100% {
+      -webkit-transform: rotate(360deg);
+      transform: rotate(360deg);
+    }
+  }
+  @-webkit-keyframes lds-dual-ring {
+    0% {
+      -webkit-transform: rotate(0);
+      transform: rotate(0);
+    }
+    100% {
+      -webkit-transform: rotate(360deg);
+      transform: rotate(360deg);
+    }
+  }
+  @keyframes lds-dual-ring_reverse {
+    0% {
+      -webkit-transform: rotate(0);
+      transform: rotate(0);
+    }
+    100% {
+      -webkit-transform: rotate(-360deg);
+      transform: rotate(-360deg);
+    }
+  }
+  @-webkit-keyframes lds-dual-ring_reverse {
+    0% {
+      -webkit-transform: rotate(0);
+      transform: rotate(0);
+    }
+    100% {
+      -webkit-transform: rotate(-360deg);
+      transform: rotate(-360deg);
+    }
+  }
+  .lds-dual-ring {
+    position: relative;
+  }
+  .lds-dual-ring div {
+    position: absolute;
+    width: 160px;
+    height: 160px;
+    top: 20px;
+    left: 20px;
+    border-radius: 50%;
+    border: 8px solid #000;
+    border-color: #5a1714 transparent #5a1714 transparent;
+    -webkit-animation: lds-dual-ring 0.8s linear infinite;
+    animation: lds-dual-ring 0.8s linear infinite;
+  }
+  .lds-dual-ring div:nth-child(2) {
+    width: 140px;
+    height: 140px;
+    top: 30px;
+    left: 30px;
+    border-color: transparent #bc2412 transparent #bc2412;
+    -webkit-animation: lds-dual-ring_reverse 0.8s linear infinite;
+    animation: lds-dual-ring_reverse 0.8s linear infinite;
+  }
+  .lds-double-ring {
+    width: 200px !important;
+    height: 200px !important;
+    -webkit-transform: translate(-100px, -100px) scale(1) translate(100px, 100px);
+    transform: translate(-100px, -100px) scale(1) translate(100px, 100px);
+  }
+</style></div>
+                      <div class="row" >
                           <div class="col-sm-8 col-sm-offset-2" data-form-type="formoid">
                               <div class="mbr-header mbr-header--center mbr-header--std-padding">
                                   <h2 class="mbr-header__text">CONTACTANOS</h2>
@@ -572,7 +649,7 @@
                               <div data-form-alert="true">
                                   <div class="hide" data-form-alert-success="true">Mensaje enviado, en brevedad sera contactado Gracias por escribir!</div>
                               </div>
-                              <form  method="post" data-form-title="CONTACTO">
+                              <form> 
                                   <input type="hidden" data-form-email="true">
                                   <div class="form-group">
                                       <input type="text" class="form-control" name="name" required="" placeholder="Nombre*" data-form-field="Name">
@@ -584,10 +661,12 @@
                                       <input type="tel" class="form-control" name="phone" placeholder="Teléfono" data-form-field="Phone">
                                   </div>
                                   <div class="form-group">
-                                      <textarea class="form-control" name="message" rows="7" placeholder="Mensaje" data-form-field="Message"></textarea>
+                                      <textarea class="form-control" name="message" rows="7" placeholder="Mensaje" maxlength="255" data-form-field="Message"></textarea>
                                   </div>
-                                  <div class="mbr-buttons mbr-buttons--right"><button type="submit" class="mbr-buttons__btn btn btn-lg btn-danger"><span class="btn-text">ENVIAR CONSULTA</span><i class="btn-loader"></i></button></div>
+                                  <div class="mbr-buttons mbr-buttons--right"><button id="enviar" class="mbr-buttons__btn btn btn-lg btn-danger"><span class="btn-text">ENVIAR CONSULTA</span><i class="btn-loader"></i></button></div>
+                                  <div id="mensaje" class="form-group"><span class="text-success">Consulta enviada correctamente</span></div>
                               </form>
+
                           </div>
                       </div>
                   </div>
@@ -634,7 +713,7 @@
   <script src="assets/bootstrap-carousel-swipe/bootstrap-carousel-swipe.js"></script>
   <script src="assets/mobirise/js/script.js"></script>
   <script src="assets/mobirise-gallery/script.js"></script>
-  
+  <script src="assets/js-custom/custom.js"></script>
   
 </body>
 </html>
